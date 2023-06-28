@@ -51,6 +51,10 @@ h4 {
     font-size: 12px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 85%;
     margin: 0px auto;
@@ -71,4 +75,18 @@ h4 {
 .imgcomputer-code {
     width: 400px;
     height:225px;
+}
+
+.git-contact {
+    width: 70px;
+}
+
+.mastodon-contact {
+    width: 63px;
+    margin-left: 15px;
+}
+
+.steam-contact {
+    width: 70px;
+    margin-left: 15px;
 }
