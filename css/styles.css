@@ -20,12 +20,20 @@ section {
     width: 70%
 }
 
+section h6 {
+    margin: 0 3px;
+}
+
+img {
+    margin-top: 5px;
+}
+
 aside {
     float: right;
     line-height: 2;
 }
 
-ol li {
+a {
     text-decoration: none;
 }
 
@@ -38,11 +46,25 @@ footer {
     width: 100%
 }
 
-footer p {
+h4 {
     text-align: center;
+    font-size: 12px;
 }
 
 .container {
     width: 85%;
     margin: 0px auto;
+}
+
+.who-am-I {
+    font-size: 18px;
+}
+
+.imgtwovettes {
+    width: 400px;
+}
+
+.imgcomputer-code {
+    width: 400px;
+    height:225px;
 }
