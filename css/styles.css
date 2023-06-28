@@ -1,0 +1,29 @@
+body {
+    background-color:#EEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(45, 47, 90);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: #EEE;
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+section {
+    
+}
+
+aside {
+
+}
