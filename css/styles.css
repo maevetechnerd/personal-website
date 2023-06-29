@@ -60,6 +60,16 @@ header a:hover {
     font-weight: bold;
 }
 
+/*Welcome Section*/
+.welcome-section {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    border: #acacac solid 1px;
+    margin: 10px 0 5px 320px;
+    background-color: #acacac;
+}
+
 /*Boxes*/
 #boxes {
     margin-top: 20px;
@@ -87,12 +97,37 @@ footer {
     width: 97.9%;
 }
 
+/*Blog Posts*/
+aside#sidebar {
+    float: right;
+}
+
+#sidebar ul {
+    list-style: none
+}
+
+article {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    border: #acacac solid 1px;
+    margin: 10px 0 5px 0;
+    background-color: #acacac;
+}
+
+article h2 p {
+    color:#EEE
+}
+
 /*About Me*/
 /*images*/
-img .imgtwovettes
-.imgcomputer-code{
-    float: left;
-    margin: 0 auto;
+.about-me {
+    text-align: center;
+    width: 97.9%;
+    padding: 20px;
+    border: #acacac solid 1px;
+    margin: 10px 0 5px 0;
+    background-color: #acacac;
 }
 
 .imgtwovettes {
@@ -104,8 +139,17 @@ img .imgtwovettes
     height: 169px;
 }
 
+.n24hf1 {
+    width: 300px;
+}
+
+.cmp-code {
+    width: 300px;
+    height: 169px;
+}
+
 figure {
-    float: left;
+    float:left
 }
 
 /*Contact Me*/
