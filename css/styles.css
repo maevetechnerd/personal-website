@@ -1,0 +1,88 @@
+body {
+    font: 15px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #EEE;
+}
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    background:rgb(45, 47, 90);
+    color: #EEE;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(81, 84, 139) 3px solid;
+}
+
+header a {
+    color: #EEE;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-bottom: 5px;
+}
+
+header .current a {
+    color: rgb(119, 94, 151)
+}
+
+header a:hover {
+    color:rgb(119, 94, 151);
+    font-weight: bold;
+}
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width:30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/*footer*/
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(93, 94, 110);
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
