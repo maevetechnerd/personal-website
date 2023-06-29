@@ -89,7 +89,8 @@ footer {
 
 /*About Me*/
 /*images*/
-img {
+img .imgtwovettes
+.imgcomputer-code{
     float: left;
     margin: 0 auto;
 }
@@ -105,4 +106,13 @@ img {
 
 figure {
     float: left;
+}
+
+/*Contact Me*/
+#boxes h1 {
+    margin-left: 660px;
+}
+
+#boxes p {
+    margin-left: 345px;
 }

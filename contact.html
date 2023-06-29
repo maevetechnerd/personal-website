@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Personal Website and Blog">
+        <meta name="keywords" content="Personal Website, Blog">
         <meta name="author" content="Maeve">
         <title>Contact Me</title>
         <link rel="stylesheet" href="css/styles.css">
@@ -9,24 +12,42 @@
 
     <body>
         <header>
-            <h1>Maeve's Personal Website</h1>
+            <div class="container">
+                <div id="website-name">
+                    <h1>Maeve's Personal Website</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">blog posts</a></li>
+                        <li><a href="about.html">about me</a></li>
+                        <li class="current"><a href="contact.html">contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <div class="container">
-            <section>
 
-                <!--Need to get this down in the middle of the website-->
+        <section id="boxes">
+            <div class="container">
                 <h1>Contact Me</h1>
-                <a href="https://github.com/maevetechnerd"><img class="git-contact" src="img/github-mark.png" alt="Git Hub Logo"></a>
-                <a href="https://tech.lgbt/@maeve03"><img class="mastodon-contact" src="img/Mastodon_Logotype.svg.png" alt="Mastodon Logo"></a>
-                <a href="https://steamcommunity.com/id/Maeve91"><img class="steam-contact" src="img/3670382.png" alt="Steam Logo"></a>
-            </section>
-        </div>
+                <p>
+                    Here are links to different places you can contact me on. I am very active with
+                    all 3 websites, especially now GitHub.
+                </p>
+                <div class="box">
+                    <a href="https://github.com/maevetechnerd"><img class="git-contact" src="img/github-mark.png" alt="Git Hub Logo"></a>
+                </div>
+                <div class="box">
+                    <a href="https://tech.lgbt/@maeve03"><img class="mastodon-contact" src="img/Mastodon_Logotype.svg.png" alt="Mastodon Logo"></a>
+                </div>
+                <div class="box">
+                    <a href="https://steamcommunity.com/id/Maeve91"><img class="steam-contact" src="img/3670382.png" alt="Steam Logo"></a>
+                </div>
+            </div>
+        </section>
 
-        <!--I have no idea how to do a copyright sign-->
         <footer>
-            <h4>
-                All rights reserved to me, Maeve and people who contributes to me and my website.
-            </h4>
+            <p>Maeve's personal website, Copyright &copy; 2023</p>
         </footer>
     </body>
 </html>
