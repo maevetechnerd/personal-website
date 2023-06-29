@@ -109,10 +109,10 @@ figure {
 }
 
 /*Contact Me*/
-#boxes h1 {
-    margin-left: 660px;
+#boxes #contact-me {
+    margin-left: 655px;
 }
 
-#boxes p {
-    margin-left: 345px;
+#boxes #contact-me-p {
+    margin-left: 330px;
 }
