@@ -153,10 +153,40 @@ figure {
 }
 
 /*Contact Me*/
-#boxes #contact-me {
+#contact-me {
     margin-left: 655px;
+    width: 97.9%;
+    padding: 20px;
+    border: #acacac solid 1px;
+    margin: 0;
+    background-color: #acacac;
 }
 
-#boxes #contact-me-p {
+#contact-me-p {
     margin-left: 330px;
+    width: 97.9%;
+    padding: 20px;
+    border: #acacac solid 1px;
+    margin: 0;
+    background-color: #acacac;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me-p {
+    text-align: center;
+}
+
+.git-contact {
+    margin-left: 200px;
+}
+
+.mastodon-contact {
+    margin-left: 110px;
+}
+
+.steam-contact {
+    margin-right: 40px;
 }
