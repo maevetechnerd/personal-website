@@ -1,193 +1,100 @@
-body {
-    font: 15px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+/* Universal */
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #EEE;
 }
 
-/*Global*/
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-}
-
-/*Header*/
-header {
-    background:rgb(45, 47, 90);
-    color: #EEE;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: rgb(81, 84, 139) 3px solid;
-}
-
-header a {
-    color: #EEE;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
-    margin-bottom: 5px;
-}
-
-header .current a {
-    color: rgb(119, 94, 151)
-}
-
-header a:hover {
-    color:rgb(119, 94, 151);
-    font-weight: bold;
-}
-
-/*Welcome Section*/
-.welcome-section {
-    text-align: center;
-    width: 50%;
-    padding: 20px;
-    border: #acacac solid 1px;
-    margin: 10px 0 5px 320px;
-    background-color: #acacac;
-}
-
-/*Boxes*/
-#boxes {
-    margin-top: 20px;
-}
-
-#boxes .box {
-    float: left;
-    width:30%;
-    padding: 10px;
-    text-align: center;
-}
-
-#boxes .box img {
-    width: 90px;
-}
-
-/*footer*/
-/*The footer won't stay at the bottom of the screen at the home page,
-about me page and contact me page.*/
-footer {
-    padding: 20px;
-    margin-top: 20px;
-    background-color: rgb(93, 94, 110);
-    text-align: center;
-    height: 35px;
-    width: 97.9%;
-}
-
-/*Blog Posts*/
-aside#sidebar {
-    float: right;
-}
-
-#sidebar ul {
     list-style: none;
 }
 
-article {
-    float: left;
-    width: 50%;
-    padding: 20px;
-    border: #acacac solid 1px;
-    margin: 10px 0 5px 0;
-    background-color: #acacac;
+a {
+    text-decoration: none;
+    color: #EEE;
 }
 
-article h2 p {
-    color:#EEE
+h1, h2 {
+    font-weight: 400px;
+    line-height: 1.4;
+    margin: 10px 0;
 }
 
-/*About Me*/
-/*images*/
-.about-me {
-    text-align: center;
-    width: 97.9%;
-    padding: 20px;
-    border: #acacac solid 1px;
-    margin: 10px 0 5px 0;
-    background-color: #acacac;
+p {
+    margin: 10px 0;
 }
 
-.imgtwovettes {
-    width:300px;
+img {
+    width: 100%;
 }
 
-.imgcomputer-code {
-    width: 300px;
-    height: 169px;
+.navbar {
+    background-color: rgb(45, 47, 90);
+    color: #EEE;
+    height: 70px;
 }
 
-.n24hf1 {
-    width: 300px;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
 }
 
-.cmp-code {
-    width: 300px;
-    height: 169px;
+/* Flex settings*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
-figure {
-    float:left
+.navbar ul {
+    display: flex;
 }
 
-/*Contact Me*/
-#contact-me {
-    margin-left: 655px;
-    width: 97.9%;
-    padding: 20px;
-    border: #acacac solid 1px;
-    margin: 0;
-    background-color: #acacac;
+.navbar a {
+    padding: 10px;
+    margin: 0 5px;
 }
 
-#contact-me-p {
-    margin-left: 330px;
-    width: 97.9%;
-    padding: 20px;
-    border: #acacac solid 1px;
-    margin: 0;
-    background-color: #acacac;
+.navbar li a:hover {
+    border-bottom: 2px #EEE solid;
 }
 
-.contact-me {
-    text-align: center;
+.navbar .flex {
+    justify-content: space-between;
 }
 
-.contact-me-p {
-    text-align: center;
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.git-contact {
-    margin-left: 200px;
+/* Showcase */
+.showcase {
+    background-image: url(../img/Screenshot_2021-04-14_21-13-04.png);
+    background-position: 0 -30vh;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
-.mastodon-contact {
-    margin-left: 110px;
+.showcase-text {
+    color:#EEE;
 }
 
-.steam-contact {
-    margin-right: 40px;
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20 0;
 }

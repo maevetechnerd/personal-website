@@ -2,77 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="Personal Website and Blog">
-        <meta name="keywords" content="Personal Website, Blog">
-        <meta name="author" content="Maeve">
-        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
+        <title>Maeve's Blog</title>
     </head>
 
     <body>
-        <header>
-            <div class="container">
-                <div id="website-name">
-                    <h1>Maeve's Personal Website</h1>
-                </div>
+        <!--Navbar section-->
+        <div class="navbar">
+            <div class="container flex">
+                <h1 class="Logo"><a href="index.html">Maeve's Blog</a></h1>
                 <nav>
                     <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">blog posts</a></li>
-                        <li><a href="about.html">about me</a></li>
-                        <li><a href="contact.html">contact me</a></li>
+                        <li><a href="blog.html">blogs</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="about.html">about</a></li>
                     </ul>
                 </nav>
             </div>
-        </header>
+        </div>
 
-        <section>
-            <div class="container">
-                <div class="welcome-section">
-                    <h1>Welcome to my website!</h1>
+        <!--Showcase-->
+        <section class="showcase">
+            <div class="container grid">
+                <div class="showcase-text">
+                    <h1>Check out the simracing posts</h1>
                     <p>
-                        Here you will be able to read about me, my hobbies and what I do.
-                        Including following me on my journey to become a web developer.
-                        I am Focusing on front end right now but will start focusing on back end soon
-                        with JavaScript and a framework for it.
+                        It is not only programming I do. I also do simracing!
                     </p>
+                    <a href="simracing.html" class="btn btn-outline">See more</a>
                 </div>
             </div>
         </section>
-
-        <section id="boxes">
-            <div class="container">
-                <div class="box">
-                    <img class="html-logo" src="img/html-1.svg" alt="HTML Logo">
-                    <h3>HTML5 Markup</h3>
-                    <p>
-                        This website is built from scratch with HTML5.
-                        It is a work in progress for me since I recently started learning.
-                    </p>
-                </div>
-                <div class="box">
-                    <img class="css-logo" src="img/css3.svg" alt="CSS Logo">
-                    <h3>CSS Styling</h3>
-                    <p>
-                        This website is styled with CSS and as the HTML5 I recently started learning,
-                        so I have yet, still alot to learn.
-                    </p>
-                </div>
-                <div class="box">
-                    <img class="javascript-logo" src="img/javascript-1.svg" alt="JavaScript Logo">
-                    <h3>JavaScript</h3>
-                    <p>
-                        JavaScript will soon enter the picture for my website.
-                        It will be used for the back end to give me more back end development
-                        experience.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <p>Maeve's personal website, Copyright &copy; 2023</p>
-        </footer>
     </body>
 </html>
