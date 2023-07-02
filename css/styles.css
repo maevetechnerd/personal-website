@@ -128,6 +128,30 @@ article {
     justify-content: flex-end;
 }
 
+/* Simracing settings */
+.simracing {
+    background-image: url(../img/Screenshot_ks_porsche_919_hybrid_2016_sx_lemans_13-10-121-16-55-58.jpg);
+    height: 80vh;
+}
+
+.simheader {
+    color:#EEE;
+    margin-top: 55vh;
+}
+
+.simtext {
+    color:#EEE;
+    width: 48%;
+}
+
+.ac{
+    width: 500px;
+}
+
+.rf2 {
+    width: 500px;
+}
+
 /* Footer */
 footer {
     background-color: gray;
