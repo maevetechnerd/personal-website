@@ -144,6 +144,28 @@ article {
     width: 48%;
 }
 
+.racing-section {
+    text-align: center;
+}
+
+.rfnac-vids {
+    text-align: center;
+}
+
+.rf2vid1 {
+    width: 700px;
+    height: 400px;
+    margin-left: 610px;
+}
+
+.ac-screenshots {
+    text-align: center;
+}
+
+.rf2-screenshots {
+    text-align: center;
+}
+
 .ac{
     width: 500px;
 }
