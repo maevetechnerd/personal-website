@@ -3,7 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    width:100%
+    width:100%;
+    list-style: none;
 }
 
 body {
@@ -11,40 +12,9 @@ body {
     line-height: 1.6;
 }
 
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
     color: #EEE;
-}
-
-h1, h2 {
-    font-weight: 400px;
-    line-height: 1.4;
-    margin: 10px 0;
-}
-
-p {
-    margin: 10px 0;
-}
-
-img {
-    width: 100%;
-}
-
-.navbar {
-    background-color: rgb(45, 47, 90);
-    color: #EEE;
-    height: 70px;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
 }
 
 /* Flex settings*/
@@ -55,13 +25,28 @@ img {
     height: 100%;
 }
 
+/* Header/Navbar */
+.navbar {
+    background-color: rgb(45, 47, 90);
+    color: #EEE;
+    height: 80px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
 .navbar ul {
     display: flex;
+    list-style: none;
 }
 
 .navbar a {
-    padding: 10px;
-    margin: 0 10px;
+    padding: 0px;
+    margin: 0 2px;
 }
 
 .navbar li a:hover {
@@ -69,20 +54,22 @@ img {
 }
 
 .navbar .flex {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* Showcase */
 .showcase {
     background-image: url(../img/Screenshot_2021-04-14_21-13-04.png);
-    background-position: -0vh -40vh;
+    background-position: center;
     background-repeat: no-repeat;
+    justify-items: center;
+    width: 100%;
     height: 600px;
 }
 
 .showcase-text {
     color:#EEE;
-    margin-top: 45vh;
+    margin-top: 43vh;
 }
 
 .showcase h1 {
@@ -102,6 +89,7 @@ img {
     float: left;
     width: 30%;
     padding: 10px;
+    margin-left: 15px;
     text-align: center;
 }
 
@@ -131,6 +119,8 @@ article {
 /* Simracing settings */
 .simracing {
     background-image: url(../img/Screenshot_ks_porsche_919_hybrid_2016_sx_lemans_13-10-121-16-55-58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 80vh;
 }
 
@@ -141,7 +131,7 @@ article {
 
 .simtext {
     color:#EEE;
-    width: 48%;
+    width: 90%;
 }
 
 .racing-section {
@@ -153,9 +143,10 @@ article {
 }
 
 .rf2vid1 {
-    width: 700px;
-    height: 400px;
-    margin-left: 610px;
+    width: 100%;
+    height: -20vh;
+    margin: auto;
+
 }
 
 .ac-screenshots {
@@ -167,11 +158,11 @@ article {
 }
 
 .ac{
-    width: 500px;
+    width: 100%;
 }
 
 .rf2 {
-    width: 500px;
+    width: 100%;
 }
 
 /* Footer */
